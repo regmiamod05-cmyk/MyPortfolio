@@ -1,83 +1,177 @@
-<html>
-    <head> <title>My Portfolio</title> </head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
 
 <body>
-    <img src="image/logo.png" alt="logo" width="80">
-    <nav>
-<ul> 
- <li><a href="#">Home</a></li>
- <li><a href="#">About</a></li>
- <li><a href="#">Projects</a></li>
- <li><a href="#">skills</a></li>
-<li><a href="#">Contact</a></li>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="image/logo.png" alt="Logo" width="80">
+            </div>
+            <div class="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#AboutMe">About Me</a></li>
+                        <li><a href="#MyProjects">My Projects</a></li>
+                        <li><a href="#MySkills"> My Skills</a></li>
+                        <li><a href="#Education">Education</a></li>
+                        <li><a href="#ContactMe">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search-bar">
+                <form>
+                    <input type="text" placeholder="Search">
+                    <button type="Submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="AboutMe">
+            <h1>
+                About Me
+            </h1>
+            <p>
+                My name is Amod Regmi, and I am from Dhobighat, Lalitpur, Nepal. I completed my S.E.E. and +2 education
+                from D.A.V. Sushil Kedia Vishwa Bharati, Jawalakhel, Lalitpur. Currently, I am pursuing my Bachelor’s
+                degree at Model Institute of Technology (MIT), affiliated with International American University.
 
-</ul>
-</nav>
-<form>
-<input type="text" placeholder="search">
-<button type="submit">search</button>
-</form>
+                I consider myself an honest, punctual, hardworking, and self-motivated person. I always try to learn
+                from my experiences and improve myself both personally and academically. My main goal is to maintain a
+                good GPA throughout my studies while developing practical and field-related skills that will help me
+                build a successful career.
 
-<h1><u>About Me</u></h1>
-<img src="image/Web Development profile Picture (AS-1).png" alt="logo" width="'100" height="100"><br>
-<h2>Introduction</h2>
-<P>
-My name is Amod Regmi, and I live in Dhobighat, Lalitpur.
-I completed my S.E.E. and +2 from D.A.V. Sushil Kedia Vishwa Bharati in Jawalakhel, Lalitpur.
-Currently, I am pursuing my Bachelor's degree at Model Institute of Technology (MIT), which is affiliated with International American University.
-</P>
-<h2>Personality & Strength</h2>
-<p>
-I consider myself an honest, punctual, hardworking, and self-motivated person. 
-I always try to complete my responsibilities on time and give my best effort in whatever I do. 
-I believe that being disciplined and motivated helps me improve both personally and professionally.
-</p>
-<h2>Hobbies & Strength</h2>
-<p>
-In my free time, I enjoy playing futsal and editing videos. 
-Playing futsal helps me stay active and teaches me the importance of teamwork and communication. 
-Video editing is another hobby that I am passionate about because it allows me to be creative and express my ideas through visual content.
-</p>
-<h2>Academic Goal</h2>
-<p>
-My academic goal for this year is to improve my GPA and develop more practical skills related to my field. 
-I want to gain knowledge not only through my studies but also through practical experience that can help me in my future career.
-</p>
-<h2>Career Goal</h2>
-<p>
-My career goal is to complete my Bachelor's degree, gain practical experience, and eventually establish my own film production company. 
-My future ambition is to build a successful career in the film and media industry, continuously improve my skills, and gain enough experience to lead my own company as a CEO. 
-I also want to become financially independent and be able to support my family.
-</p>
-<h2>Future Ambition</h2>
-<p>
-Overall, I want to keep learning, take on new challenges, and become a successful and responsible professional. 
-I believe that with hard work, dedication, and continuous learning, I can achieve my goals and turn my ambition of owning a film production company into reality.
-</p>
+                Apart from academics, I enjoy swimming, playing football, and video editing. I am particularly
+                interested in learning new skills and gaining practical experience. I also want to gain professional
+                experience through internships and other opportunities related to my field.
 
-<h2> My Projects</h2>
-<h2> My Skills</h2>
-<h2> Contact Me</h2>
-<form>
- <label>Name</label><br>
-<input type="text" placeholder="Name"><br>
-<label>Email</label><br>
-<input type="email" placeholder="Email"><br>
-<label>Message</label><br>
-<textarea placeholder="message"></textarea><br>
-<button type="submit">Send</button>
+                In the future, I aim to complete my degree successfully, continue developing my professional skills, and
+                build a stable and successful career. I believe that consistent effort, a positive attitude, and a
+                willingness to learn are important for achieving my goals.
+            </p>
+        </section>
 
-</form>
-<h1>Follow Me On </h1>
-<a href="https://www.instagram.com" target="_blank">
-<img src="image/Web Development Insta logo (AS-1).png" alt="logo" width="40" height="40"></a>
+        <img src="image/Web Development profile Picture (AS-1).png" alt="Logo" width="100" height="100">
+        <section id="MyProjects">
+            <h1>
+                My Projects
+            </h1>
+            <article>
+                <h2>Student Management System</h2>
+                <p>Created a basic Student Management System to manage student information such as names, IDs, courses,
+                    grades, and contact details.
+                    The project helped me understand database management, CRUD operations, and basic programming
+                    concepts.
+                </p>
+            </article>
+            <article>
+                <h2>Online Gym Management System</h2>
+                <p>
+                    Developed a basic Gym Management System to manage members, membership plans, trainers, schedules, and payments. 
+                    The project was designed to make gym-related information easier to organize and manage while improving my understanding of web development and database systems.
+
+                </p>
+            </article>
+            <article>
+                <h2>Online Futsal Booking System</h2>
+                <p>
+                    Developed a basic Online Futsal Booking System that allows users to view available time slots, select a preferred date and time, and book a futsal court. 
+                    The project helped me understand web development, database management, user interfaces, and online booking systems.
+                </p>
+            </article>
+        </section>
+        <section id="MySkills">
+            <h1> My Skills</h1>
+            <dl>
+                <dt><b>Programming Language </b></dt>
+                <dd>Java(basics),C,Python </dd>
+                <dt><b>Database</b></dt>
+                <dd>Mysql,Postgresql </dd>
+                <dt><b>Tools</b></dt>
+                <dd> VsCode, Ms word, Excel, Powerpoint </dd>
+                <dt><b>Framework</b></dt>
+                <dd>Django,SpringBoot </dd>
+            </dl>
+        </section>
+        <section id="Education">
+            <h1>Education</h1>
+        </section>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th> S.N.</th>
+                    <th>Level</th>
+                    <th>Completion Date</th>
+                    <th>Institution</th>
+                    <th>GPA</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>SEE</td>
+                    <td>2020
+                    <td>D.A.V Sushil Kedia Vishwa Bharti School</td>
+                    <td>3.86</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>+2</td>
+                    <td>2024</td>
+                    <td>D.A.V Sushil Kedia Vishwa Bharti College</td>
+                    <td>3.45</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bachelors</td>
+                    <td>Ongoing</td>
+                    <td>Model Institute of Technology</td>
+                    <td>ongoing</td>
+                    <td>ongoing</td>
+                </tr>
+            </tbody>
+
+        </table>
+        <section id="ContactMe">
+            <h1> Contact Me</h1>
+            <form>
+                <label>Name</label><br>
+                <input type="text" placeholder="Name"><br>
+                <label>Email</label><br>
+                <input type="email" placeholder="Email"><br>
+                <label>Message</label><br>
+                <textarea placeholder="Message...."></textarea><br>
+                <button type="submit">Send</button>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h2>Find Me On </h2>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="image/Web Development Insta logo (AS-1).png" alt="logo" width="40" height="40"></a>
+
+        <a href="https://www.linkedin.com/company/sarkilar/" target="_blank">
+            <img src="image/linkedin logo.png" alt="logo" width="40" height="40">
+        </a>
+
+        <a href="https://www.facebook.com/" target="_blank">
+            <img src="image/Web Development Facebook Logo (AS-1).png" width="40" height="40" alt="logo">
+        </a>
 
 
-<a href="https://www.facebook.com/" target="_blank">
-<img src="image/Web Development Facebook Logo (AS-1).png" width="40" height="40" alt="logo"></a>
+        &copy; copyright &copy; 2026 Amod Regmi. All rights reserved.
+    </footer>
 </body>
 
-
-
 </html>
-
